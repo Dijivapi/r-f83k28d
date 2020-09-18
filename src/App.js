@@ -15,10 +15,10 @@ class App extends Component {
         return ( <
             div >
             <
-            span className = "value" > { this.state.value } < /span> <
+            span className = "value" > { this.state.value } < /span>  <
             button id = "inc"
-            onClick = { this.increment } > Incrementa < /button> < /
-            div >
+            onClick = { this.increment } > Incrementa < /button>  <
+            /div>
         );
     }
 
