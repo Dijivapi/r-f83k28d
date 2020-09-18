@@ -12,8 +12,8 @@ class App extends Component {
             <
             span className = "value" > { this.state.value } < /span> <
             button id = "inc"
-            onClick = { this.increment } > Incrementa < /button> <
-            /div>
+            onClick = { this.increment } > Incrementa < /button> < /
+            div >
         );
     }
 
